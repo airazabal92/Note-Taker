@@ -10,7 +10,8 @@ const PORT = process.env.PORT || 3000;
 // // Capture URL request is made to
 // let path = req.url;
 
-require("./public/assets/js/html-routes.js")(app);
+require("./routing/html-routes.js")(app);
+require("./routing/api-routes.js")(app);
 
 app.listen(PORT, () => {
   console.log("Server is listening on: http://localhost" + PORT);
