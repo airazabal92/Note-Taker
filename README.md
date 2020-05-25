@@ -31,11 +31,19 @@ The application is invoked with the following command:
 node server.js
 ```
 
-The <b>db</b> folder contains <b> db.json </b> which will save the notes.
+<b>DB FOLDER</b>
 
-The <b>public</b> folder contains an <b>assets</b> folder with <b>css</b> and <b>js</b> subfolders. The <b>js</b> folder contains the <b>index.js</b> file, which makes AJAX calls to the API to add, delete, and view all notes.The <b>public</b> folder also has the index.html and notes.html files.
+- Contains <b> db.json </b> which will save the notes.
 
-The <b>routing</b> folder has <b>api-routes.js</b> and <b>html-routes.js</b> files. These files establish the following routes that are used in the application:
+<b>PUBLIC FOLDER</b>
+
+- Contains an <b>assets</b> folder with <b>css</b> and <b>js</b> subfolders.
+- The <b>js</b> folder contains the <b>index.js</b> file, which makes AJAX calls to the API to add, delete, and view all notes.
+- The <b>public</b> folder also has the <b>index.html</b> and <b>notes.html</b> files.
+
+<b>ROUTING FOLDER</b>
+
+- Contains <b>api-routes.js</b> and <b>html-routes.js</b> files. These files establish the following routes that are used in the application:
 
 <b>HTML ROUTES</b>
 
@@ -54,7 +62,9 @@ POST request to localhost:300/api/notes // To post a new note
 DELETE request to localhost:300/api/notes/:id // To remove a note - requires id of note to remove (first note is given id 1, etc.)
 ```
 
-The <b>server.js</b> files initiates the server and should be run to start the application.
+<b>SERVER.JS</b>
+
+- The <b>server.js</b> files initiates the server and should be run to start the application.
 
 ## Questions
 
