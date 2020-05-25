@@ -1,12 +1,12 @@
 // Require express
 const express = require("express");
 
+// Sets up Express App
+const app = express();
+
 // Require html and api route js files
 require("./routing/api-routes.js")(app);
 require("./routing/html-routes.js")(app);
-
-// Sets up Express App
-const app = express();
 
 const PORT = process.env.PORT || 3000;
 
