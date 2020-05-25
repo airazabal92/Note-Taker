@@ -8,10 +8,16 @@ An application that can be used to write, save, and delete notes. The applicatio
 
 ## Table of Contents
 
+- [Application](#application)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Questions](#questions)
 - [License](#license)
+
+## Application
+
+To view the deployed application on Heroku, visit:
+https://note-taker-ai.herokuapp.com/
 
 ## Technologies Used
 
@@ -20,6 +26,7 @@ An application that can be used to write, save, and delete notes. The applicatio
 - JSON
 - AJAX
 - Bootstrap
+- Heroku
 
 ## Installation
 
