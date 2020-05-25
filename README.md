@@ -19,7 +19,7 @@ An application that can be used to write, save, and delete notes. The applicatio
 ## Application
 
 To view the deployed application on Heroku, visit:
-https://note-taker-ai.herokuapp.com/
+<a href="https://note-taker-ai.herokuapp.com/" target="_blank">https://note-taker-ai.herokuapp.com/</a>
 
 ## Technologies Used
 
