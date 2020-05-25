@@ -56,9 +56,7 @@ localhost:300/notes // To view the notes page
 
 ```sh
 GET request to localhost:300/api/notes // To view all notes - JSON format
-
 POST request to localhost:300/api/notes // To post a new note
-
 DELETE request to localhost:300/api/notes/:id // To remove a note - requires id of note to remove (first note is given id 1, etc.)
 ```
 
